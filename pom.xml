@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.zkoss</groupId>
+	<artifactId>zssperformance26</artifactId>
+	<version>0.9</version>
+	<packaging>war</packaging>
+	<repositories>
+		<repository>
+			<id>zk repository</id>
+			<url>http://mavensync.zkoss.org/maven2</url>
+		</repository>
+		<repository>
+			<id>ZK EE Evaluation</id>
+			<url>http://mavensync.zkoss.org/zk/ee-eval</url>
+		</repository>
+	</repositories>
+	<properties>
+		<zss.version>2.6.0.FL.20140527</zss.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.zkoss.zss</groupId>
+			<artifactId>zssex</artifactId>
+			<version>${zss.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.zkoss.zk</groupId>
+			<artifactId>zkex</artifactId>
+			<version>6.5.0</version>
+		</dependency>
+	</dependencies>
+	<description>A project with several scenarios for testing ZSS 2.6 performance. Each zul represents a scenario.</description>
+	<name>zssperformance</name>
+</project>

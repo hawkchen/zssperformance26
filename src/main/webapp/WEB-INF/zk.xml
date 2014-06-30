@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- zk.xml Purpose: Description: History: Sun Mar 26 16:29:07 2006, Created by tomyeh Copyright (C) 
+	2006 Potix Corporation. All Rights Reserved. -->
+
+<zk>
+
+	<system-config>
+		<id-generator-class>org.zkoss.zk.ui.impl.StaticIdGenerator</id-generator-class>
+	</system-config>
+	<max-desktops-per-session>1</max-desktops-per-session>
+</zk>

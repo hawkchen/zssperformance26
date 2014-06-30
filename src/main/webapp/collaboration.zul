@@ -1,0 +1,14 @@
+<zk>
+	<button onClick="secondSheet()">Switch to 2nd sheet</button>
+	<spreadsheet id="ss" src="/normal.xlsx" maxrows="500" maxcolumns="40"
+		apply="org.zkoss.zss.benchmark.SharedBookComposer" width="100%" height="60%"
+		showContextMenu="true" showSheetbar="true" showToolbar="true" showFormulabar="true" />
+	<label id="secondSheetId" />
+	<zscript><![CDATA[
+	secondSheetId.setValue(ss.getBook().getSheetAt(1).getInternalSheet().getId());
+	public void secondSheet() {
+		ss.setSelectedSheet("Liquidity");
+	}
+]]>
+		</zscript>
+</zk>
