@@ -4,9 +4,5 @@
 	2006 Potix Corporation. All Rights Reserved. -->
 
 <zk>
-
-	<system-config>
-		<id-generator-class>org.zkoss.zk.ui.impl.StaticIdGenerator</id-generator-class>
-	</system-config>
 	<max-desktops-per-session>1</max-desktops-per-session>
 </zk>
